@@ -1,0 +1,68 @@
+/* Corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(to bottom, #fdf6e3, #e98a1d);
+    height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titre */
+h1 {
+    text-shadow: 2px 2px 0 #000;
+    line-height: 1.2;
+    transform: rotate(-5deg);
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+/* Stage pour les emojis */
+#stage {
+    width: 80%;
+    max-width: 600px;
+    font-size: 80px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 5px solid #e98a1d;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+/* Animation quand on clique */
+#stage.fight {
+    transform: scale(1.2) rotate(-2deg);
+}
+
+/* Bouton */
+button {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 15px;
+    background: #e98a1d;
+    color: white;
+    font-family: inherit;
+    font-size: 24px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #ffb84d;
+}
+
+button:active {
+    transform: scale(0.95);
+}
