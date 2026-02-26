@@ -17,6 +17,8 @@
 ## Demo
 
 Click the **Pick Fighters!** button and watch your emojis battle on the stage!
+<img width="1749" height="841" alt="image" src="https://github.com/user-attachments/assets/3cfa86cc-83f0-4e88-8142-0d9abe8b6510" />
+
 
 ---
 
